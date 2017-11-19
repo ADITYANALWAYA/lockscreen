@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.myapplication.MainActivity">
+
+
+    <Button
+        android:id="@+id/b_enable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Enable" />
+
+    <Button
+        android:id="@+id/b_disable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/b_enable"
+        android:layout_below="@+id/b_enable"
+        android:layout_marginTop="26dp"
+        android:text="Disable" />
+
+    <Button
+        android:id="@+id/b_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/b_disable"
+        android:layout_below="@+id/b_enable"
+        android:layout_marginTop="26dp"
+        android:text="Lock" />
+</RelativeLayout>
